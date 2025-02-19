@@ -122,7 +122,7 @@ class notify {
           this.ctx.fillText(
             anoucment.text,
             canvas.width / 2,
-            this.startHeight - shovedownper + i * this.boundrectH * exH
+            (this.startHeight - shovedownper + i * this.boundrectH) * exH
           );
         }
         this.ctx.globalAlpha = 1;
